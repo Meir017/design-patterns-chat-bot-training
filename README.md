@@ -1,4 +1,4 @@
-# design-patterns-chat-bot-training
+# Design Patterns - chatbot training
 
 ## Part 1
 
