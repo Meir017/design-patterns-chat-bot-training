@@ -10,6 +10,19 @@ inputs:
     - calc:expression -> evaluates expression (ex: calc:1+2 -> prints "3")
 if none matches print a message (ex: "invalid input" -> prints "the input 'invalid input' cannot be handled")
 
+examples:
+
+```sh
+bot> echo:hello world
+hello world
+bot> calc:1+2
+3
+bot> calc:4-2
+2
+bot> exit
+terminal>
+```
+
 suggested patterns:
 - [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
 

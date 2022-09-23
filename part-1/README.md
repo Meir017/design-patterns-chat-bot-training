@@ -6,6 +6,17 @@ inputs:
 1. echo the input string (using simple `Console.WriteLine`)
 2. if the input is "exit", exit the program (using `Environment.Exit(0)`)
 
+examples:
+
+```sh
+bot> hello world
+hello world
+bot> testing testing
+testing testing
+bot> exit
+terminal>
+```
+
 template:
 
 ```cs
