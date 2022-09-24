@@ -6,7 +6,7 @@ Commands:
 - **echo**
 - **exit**
 
-Using the Factory pattern
+Using the `Factory` pattern
 
 ## [Part 2](./part-2/)
 
@@ -15,7 +15,7 @@ Commands:
 - exit
 - **calculator**
 
-Using the strategy pattern
+Using the `Strategy` pattern
 
 ## [Part 3]('./part-3)
 
@@ -25,4 +25,4 @@ Commands:
 - calculator
 - **logger**
 
-Using the decorator pattern
+Using the `Decorator` pattern
