@@ -28,6 +28,8 @@ public class Program
         {
             var input = Console.ReadLine();
             // TODO: handle input
+            // - create command from factory
+            // - execute the command
         }
     }
 }
