@@ -23,6 +23,24 @@ bot> exit
 terminal>
 ```
 
+template:
+
+```cs
+public class CalculatorCommand
+{
+    public void Execute()
+    {
+        var (a, b, operator) = ParseInput(input);
+        // TODO: use strategy
+    }
+
+    private (int a, int b, char operator) ParseInput(string input)
+    {
+        // ...
+    }
+}
+```
+
 suggested patterns:
 - [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
 
