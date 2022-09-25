@@ -80,7 +80,8 @@ public class CalculatorCommand : ICommand
     public void Execute()
     {
         var parser = new ExpressionParser();
-        var (a, b, operation) = parser.Parse(_input); 
+        var (a, b, operator) = parser.Parse(_input);
+        var operation = operator == '+' ? new AdditionOperation() :  operator == '-' ? new SubtractOperation() : null;
         Console.WriteLine(operation.Execute(a, b));
     }
 }
@@ -88,19 +89,17 @@ public class CalculatorCommand : ICommand
 // ExpressionParser.cs
 public class ExpressionParser
 {
-    public (int a, int b, ICalculatorOperation operation) Parse(string input)
+    public (int a, int b, char operator) Parse(string input)
     {
         string variableA = "", variableB = "";
-        ICalculatorOperation operation;
+        
         int i = 0;
         while(i < input.Length && char.IsDigit(input[i]))
         {
             variableA += input[i];
             ++i;
         }
-        if (input[i] == "+") operation = new AdditionOperation();
-        if (input[i] == "-") operation = new SubtractOperation();
-        
+        char operation = input[i++];
         while(i < input.Length && char.IsDigit(input[i]))
         {
             variableB += input[i];
