@@ -1,7 +1,7 @@
 
 # Console Application
 
-follow up to [part-1](../part-1/)
+follow up to [part-2](../part-2/)
 
 inputs:
 
