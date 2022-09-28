@@ -17,7 +17,7 @@ Commands:
 
 Using the `Strategy` pattern
 
-## [Part 3]('./part-3)
+## [Part 3](./part-3)
 
 Commands:
 - echo
