@@ -26,3 +26,15 @@ Commands:
 - **logger**
 
 Using the `Decorator` pattern
+
+
+## [Part 4](/part-4/)
+
+Commands:
+- echo
+- exit
+- calculator
+- logger
+- **clock**
+
+Using the `Composite` pattern
