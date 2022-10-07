@@ -1,5 +1,7 @@
 # Design Patterns - chatbot training
 
+| [`Factory`](#part-1) | [`Strategy`](#part-2) | [`Decorator`](#part-3) | [`Composite`](#part-4) | [`Adapter`](#part-5) |
+
 ## [Part 1](./part-1/)
 
 Commands:
