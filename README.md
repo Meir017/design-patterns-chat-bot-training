@@ -48,7 +48,7 @@ Commands:
 - logger
 - clock
 
-Input/Output:
+Input/Output types:
 - **Console**
 - **File**
 
