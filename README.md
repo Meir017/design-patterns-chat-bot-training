@@ -38,3 +38,18 @@ Commands:
 - **clock**
 
 Using the `Composite` pattern
+
+## [Part 5](/part-5/)
+
+Commands:
+- echo
+- exit
+- calculator
+- logger
+- clock
+
+Input/Output:
+- **Console**
+- **File**
+
+Using the `Adapter` pattern
