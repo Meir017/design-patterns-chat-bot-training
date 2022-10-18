@@ -75,7 +75,7 @@ public class CommandFactory
 public class CalculatorCommand : ICommand
 {
     private readonly string _input;
-    public EchoCommand(string input) => _input = input;
+    public CalculatorCommand(string input) => _input = input;
 
     public void Execute()
     {
