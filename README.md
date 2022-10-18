@@ -2,7 +2,7 @@
 
 | [`Factory`](#part-1) | [`Strategy`](#part-2) | [`Decorator`](#part-3) | [`Composite`](#part-4) | [`Adapter`](#part-5) |
 
-## [Part 1](./part-1/)
+## [Part 1](./training/part-1/)
 
 Commands:
 - **echo**
@@ -10,7 +10,7 @@ Commands:
 
 Using the `Factory` pattern
 
-## [Part 2](./part-2/)
+## [Part 2](./training/part-2/)
 
 Commands:
 - echo
@@ -19,7 +19,7 @@ Commands:
 
 Using the `Strategy` pattern
 
-## [Part 3](./part-3)
+## [Part 3](./training/part-3)
 
 Commands:
 - echo
@@ -30,7 +30,7 @@ Commands:
 Using the `Decorator` pattern
 
 
-## [Part 4](/part-4/)
+## [Part 4](./training/part-4/)
 
 Commands:
 - echo
@@ -41,7 +41,7 @@ Commands:
 
 Using the `Composite` pattern
 
-## [Part 5](/part-5/)
+## [Part 5](./training/part-5/)
 
 Commands:
 - echo
