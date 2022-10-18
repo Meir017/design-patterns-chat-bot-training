@@ -5,7 +5,7 @@ namespace ChatBot.Commands;
 public class CalculatorCommand : ICommand
 {
     private readonly string _input;
-    public CalculatorCommand(string input) => _input = input;
+    public CalculatorCommand(string input) => _input = input.Substring("calc:".Length);
 
     public void Execute()
     {
