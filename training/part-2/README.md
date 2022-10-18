@@ -99,14 +99,14 @@ public class ExpressionParser
             variableA += input[i];
             ++i;
         }
-        char operation = input[i++];
+        char operator = input[i++];
         while(i < input.Length && char.IsDigit(input[i]))
         {
             variableB += input[i];
             ++i;
         }
 
-        return (int.Parse(variableA), int.Parse(variableB), operation);
+        return (int.Parse(variableA), int.Parse(variableB), operator);
     }
 }
 
