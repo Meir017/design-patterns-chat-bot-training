@@ -8,11 +8,11 @@ public class LoggerConfigCommand : ICommand
 
     public void Execute()
     {
-        if ("logger:enabled".Equals(_input))
+        if ("enabled".Equals(_input))
         {
             _state.LoggingEnabled = true;
         }
-        else if ("logger:disable".Equals(_input))
+        else if ("disable".Equals(_input))
         {
             _state.LoggingEnabled = false;
         }
